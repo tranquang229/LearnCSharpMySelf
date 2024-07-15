@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <input value="Test123" placeholder="ABC" ga4="ewav"/>
+    <form action="Index" method="get">
+        <div class="form-controls">
+            <button class="search-btn" type="submit" aria-label="search button">Submit</button>
+        </div>
+    </form>
+    
+    @{ GenerateSum();}
+</div>
+
+@functions {
+
+    public void GenerateSum()
+    {
+        var a = 1;
+        <div @(a+1)>
+            @(a+5)
+        </div>
+    }
+}
