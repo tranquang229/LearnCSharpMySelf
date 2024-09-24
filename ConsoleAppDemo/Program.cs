@@ -11,12 +11,16 @@ namespace ConsoleAppDemo
     {
         static void Main(string[] args)
         {
-            Employee employee1 = new Employee(1, "Alex Villegas C");
+            var listBaseModels = new List<FileBaseModel>();
+            listBaseModels.Add(new FileBaseModel("https://abc123", "Test.pdf"));
+            listBaseModels.Add(new FileBaseModel("https://def123", "Test.pdf"));
+            var str = MappingHelper.GenerateString(listBaseModels);
+            //Employee employee1 = new Employee(1, "Alex Villegas C");
 
-            Employee employee2 = employee1;
+            //Employee employee2 = employee1;
 
-            employee1.Id = 2;
-            Console.WriteLine(employee2.Id);
+            //employee1.Id = 2;
+            //Console.WriteLine(employee2.Id);
 
             //Console.WriteLine("Hello World!");
             //var objA = new CommutePlanResponse()

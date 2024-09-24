@@ -45,7 +45,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleNetFramework", "Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleNet8", "ConsoleNet8\ConsoleNet8.csproj", "{975A8605-2A83-4DB1-8EFB-03691DBA9FCA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppTest", "WebAppTest\WebAppTest.csproj", "{E0520A9C-C284-4BFC-AD95-0AB628DC235F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAppTest", "WebAppTest\WebAppTest.csproj", "{E0520A9C-C284-4BFC-AD95-0AB628DC235F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparePackage", "ComparePackage\ComparePackage.csproj", "{1DD3FE84-C483-497B-9508-0CD63B0D64F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{E0520A9C-C284-4BFC-AD95-0AB628DC235F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0520A9C-C284-4BFC-AD95-0AB628DC235F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0520A9C-C284-4BFC-AD95-0AB628DC235F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DD3FE84-C483-497B-9508-0CD63B0D64F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DD3FE84-C483-497B-9508-0CD63B0D64F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DD3FE84-C483-497B-9508-0CD63B0D64F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DD3FE84-C483-497B-9508-0CD63B0D64F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
